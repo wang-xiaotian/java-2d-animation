@@ -9,7 +9,7 @@ class MyFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setPreferredSize(new Dimension(800, 600));
         this.pack(); // fit preferred size
-        this.add(panel); // inclue my gameMapPanle
+        this.add(panel); // include my gameMapPanle
         this.setLocationRelativeTo(null); // will alien to main panel
         this.setVisible(true);
     }
